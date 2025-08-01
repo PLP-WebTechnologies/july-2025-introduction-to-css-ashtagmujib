@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+.main-header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Content section */
+.content-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Card container using flexbox */
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual card */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer styling */
+.main-footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    color: #666;
+    font-size: 0.9em;
+}
